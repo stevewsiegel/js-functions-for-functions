@@ -82,3 +82,22 @@ body {
   -ms-font-feature-settings: "lnum";
   -webkit-font-feature-settings: "lnum";
   font-feature-settings: "lnum"; }
+
+  body{
+    font-family: sans-serif;
+
+  }
+  h1{
+    font-size: 2em;
+    font-style: italic;
+  }
+
+  h2{
+    font-size: 1.5 em;
+    font-style: italic;
+
+  }
+  p{
+    background-color: #bbb;
+    padding: 20px;
+  }

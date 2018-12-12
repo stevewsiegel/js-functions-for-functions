@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Static Website BP</title>
+    <title>Jave Script Tests</title>
 
     <!-- STYLE SHEETS -->
     <link rel="stylesheet" href="stylesheets/master.css" type="text/css">
@@ -12,8 +12,16 @@
 
 
   </head>
-  
   <body>
-    <p>This is a simple HTNL/CSS/SASS Boiler Plate ready for you!</p>
+    <h1>Input</h1><br>
+    <h2>What number do you want value for?</h2>
+    <input type="text" name="" id="userInput"><br><br>
+    <input type="checkbox" name="onlyHighest" value="" id="onlyHighest">Find only highest factor<br>
+    <button type="button" name="button" onclick="Calculate()">Calculate</button>
+    <button type="button" name="reset" onclick="reset()">Reset</button>
+
+    <br><br>
+    <h1>Output</h1>
+    <p id="jsOutlet"><em style="font-style: italic;">Output...</em></p>
   </body>
 </html>
